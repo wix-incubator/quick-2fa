@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
 const speakeasy = require('speakeasy');
 const notifier = require('node-notifier');
 const ncp = require('copy-paste');
