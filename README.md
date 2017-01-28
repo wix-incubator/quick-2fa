@@ -50,8 +50,10 @@ Are you compromising security by storing this key in your keychain and by making
 
 Make sure you have latest node installed.
 
-On windows, if you get errors regarding python/msbuild/vcbuild, make sure you have latest node installed. **Only if that doesn't help**, run following command and try to reinstall `quick-2fa`:
+On Windows, if you get errors regarding python/msbuild/vcbuild, make sure you have latest node installed. **Only if that doesn't help**, run following command and try to reinstall `quick-2fa`:
 ```sh
 # run in administrator privileged command prompt window 
 npm install --global --production windows-build-tools
 ```
+
+On Linux, you might need to install `gnome-keyring` for this tool to work. See details in [keytar docs](https://github.com/atom/node-keytar#on-linux).
