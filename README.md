@@ -25,7 +25,9 @@ Example:
 $ quick-2fa vpn
 ```
 
-This utility will print the token to console, to OS notification and will also put it in your clipboard!
+This utility will print the token to console and to OS notification and will also put it in your clipboard!
+
+Works on mac, windows and linux!
 
 ## Global hotkey
 
@@ -43,3 +45,13 @@ Usually when setting up two-factor authentication, you get a qr code which you s
 Remember that now your key which generates two-factor authentication tokens is stored in the keychain on your machine. In order to keep it safe make sure you protect your machine with a strong password for cases where it is stolen or someone gains temporary physical access to it.
 
 Are you compromising security by storing this key in your keychain and by making it possible to generate tokens on your machine? Well, not more than having the same already on your phone. Basically if someone steals your phone he will have the same secret information. Since phones are much easier to steal than computers, the risk using this tool is adding is acceptable.
+
+## Troubleshooting
+
+Make sure you have latest node installed.
+
+On windows, if you get errors regarding python/msbuild/vcbuild, make sure you have latest node installed. **Only if that doesn't help**, run following command and try to reinstall `quick-2fa`:
+```sh
+# run in administrator privileged command prompt window 
+npm install --global --production windows-build-tools
+```
