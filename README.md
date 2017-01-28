@@ -12,11 +12,15 @@ Then save your key to keychain:
 
 ```sh
 $ quick-2fa --save KEY-NAME YOUR-KEY
+Example:
+$ quick-2fa --save vpn QWERTYUIPASDFGHJ
 ```
 Then whenever you need a token run:
 
 ```sh
 $ quick-2fa KEY-NAME
+Example:
+$ quick-2fa vpn
 ```
 
 This utility will print the token to console, to OS notification and will also put it in your clipboard!
