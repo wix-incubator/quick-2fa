@@ -48,7 +48,7 @@ Are you compromising security by storing this key in your keychain and by making
 
 ## Troubleshooting
 
-Make sure you have latest node installed.
+On mac, make sure you have latest node installed.
 
 On Windows, if you get errors regarding python/msbuild/vcbuild, make sure you have latest node installed. **Only if that doesn't help**, run following command and try to reinstall `quick-2fa`:
 ```sh
