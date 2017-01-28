@@ -14,7 +14,7 @@ Then save your key to keychain:
 $ quick-2fa --save KEY-NAME YOUR-KEY
 
 Example:
-$ quick-2fa --save vpn QWERTYUIPASDFGHJ
+$ quick-2fa --save vpn QWERTYUIOPASDFGH
 ```
 Then whenever you need a token run:
 
