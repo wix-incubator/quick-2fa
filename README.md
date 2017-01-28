@@ -31,9 +31,8 @@ This utility will print the token to console, to OS notification and will also p
 
 1. Install some hotkey management application such as [BetterTouchTool](https://www.boastr.net/)
 2. Define global hotkey which executes: `/usr/local/bin/node /usr/local/bin/quick-2fa KEY-NAME`
-3. Hell, you can even go crazy and make [BetterTouchTool](https://www.boastr.net/) paste and click the login button for you!
 
-Now, whenever you need to enter your two-factor authentication token, press the global hotkey, wait for OS notification to appear, and then just paste (token will already exist automatically in your clipboard).
+Now, whenever you need to enter your two-factor authentication token, press the global hotkey, wait for OS notification to appear, and then just paste (token will already exist automatically in your clipboard). Hell, you can even go crazy and make [BetterTouchTool](https://www.boastr.net/) paste and click the login button for you!
 
 ## Retrieving your key
 
