@@ -4,7 +4,7 @@ Sick of looking for your phone when it is time to enter two-factor authenticatio
 
 Install:
 
-```js
+```sh
 $ npm install -g quick-2fa
 ```
 
