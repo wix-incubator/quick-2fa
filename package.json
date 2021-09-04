@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": {
     "name": "Shahar Talmi",
-    "email": "shahart@wix.com",
+    "email": "shahar@wix.com",
     "url": ""
   },
   "main": "dist/src/index.js",
